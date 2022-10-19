@@ -19,12 +19,17 @@ namespace FsTree
         public int maxDepth { get; set; } = int.MaxValue;
         public List<string> treeLines { get; set; } = new List<string>();
 
-        public void Print()
+        public void Print(bool toConsole = true)
         {
             treeLines = new List<string>();
-            Console.WriteLine(path);
+            if (toConsole)
+            {
+                Console.WriteLine(path);
+            }
+
+            ;
             treeLines.AddRange(new[] { path, "" });
-            PrintTree(path);
+            PrintTree(path, toConsole);
         }
         private bool IsDirectory(FileSystemInfo fsi)
         {

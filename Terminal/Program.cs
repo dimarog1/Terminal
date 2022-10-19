@@ -102,7 +102,7 @@ namespace Terminal
                         int depth;
                         if (ValidateShow(commandParts, out depth))
                         {
-                            ShowTree(currentDirectory, depth);
+                            ShowTree(currentDirectory, true, depth);
                         }
                         else
                         {
@@ -170,6 +170,7 @@ namespace Terminal
                 }
                 else if (command == "writels")
                 {
+                    ShowTree(currentDirectory, false);
                     File.WriteAllLines("ls.txt", tree.treeLines);
                 }
             }
@@ -220,13 +221,13 @@ namespace Terminal
             return false;
         }
 
-        public static void ShowTree(DirectoryInfo currentDirectory, int depth = 10)
+        public static void ShowTree(DirectoryInfo currentDirectory, bool toConsole = true, int depth = 10)
         {
             tree = new Tree(currentDirectory.FullName)
             {
                 maxDepth = depth
             };
-            tree.Print();
+            tree.Print(toConsole);
         }
 
         public static void ShowFileContent(FileInfo file)
