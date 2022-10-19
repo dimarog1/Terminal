@@ -195,7 +195,7 @@ namespace Terminal
         {
             if (currentDirectory.EnumerateFiles().Select(x => x.Name).Contains(filename))
             {
-                file = new FileInfo($"{currentDirectory.FullName}\\{filename}");
+                file = new FileInfo(Path.Combine(currentDirectory.FullName, filename));
                 return true;
             }
 
@@ -205,9 +205,9 @@ namespace Terminal
 
         public static bool ValidateAndSetCd(string directoryName)
         {
-            if (Directory.Exists($"{currentDirectory.FullName}\\{directoryName}"))
+            if (Directory.Exists(Path.Combine(currentDirectory.FullName, directoryName)))
             {
-                currentDirectory = new DirectoryInfo($"{currentDirectory.FullName}\\{directoryName}");
+                currentDirectory = new DirectoryInfo((Path.Combine(currentDirectory.FullName, directoryName)));
                 return true;
             }
 
@@ -234,7 +234,7 @@ namespace Terminal
             var sr = file.OpenText();
             var lines = new List<string>();
             string line;
-            Console.WriteLine($"{Environment.NewLine}{file.Name} CONTENT:");
+            Console.WriteLine($"{Environment.NewLine}Содержимое{file.Name}:");
             while (!string.IsNullOrEmpty(line = sr.ReadLine()!))
             {
                 lines.Add(line);

@@ -1,9 +1,44 @@
-C:\Users\Dima\RiderProjects\Terminal\Terminal\bin
+/Users/murean/RiderProjects/Terminal/Terminal
+├── obj [5,6 КБ; 7 Ф]
+│   ├── Terminal.csproj.nuget.g.props (1,1 КБ)
+│   ├── Terminal.csproj.nuget.dgspec.json (1,7 КБ)
+│   ├── Terminal.csproj.nuget.g.targets (149 Б)
+│   ├── rider.project.restore.info (20 Б)
+│   ├── project.nuget.cache (275 Б)
+│   ├── project.packagespec.json (838 Б)
+│   ├── project.assets.json (1,6 КБ)
+│   └── Debug [0 Б; 0 Ф]
+│       └── net6.0 [463,2 КБ; 14 Ф]
+│           ├── ref [7 КБ; 1 Ф]
+│           │   └── Terminal.dll (7 КБ)
+│           ├── Terminal.GlobalUsings.g.cs (287 Б)
+│           ├── apphost.exe (144,5 КБ)
+│           ├── refint [7 КБ; 1 Ф]
+│           │   └── Terminal.dll (7 КБ)
+│           ├── Terminal.AssemblyInfoInputs.cache (41 Б)
+│           ├── apphost (144,3 КБ)
+│           ├── Terminal.csproj.AssemblyReference.cache (141,4 КБ)
+│           ├── Terminal.GeneratedMSBuildEditorConfig.editorconfig (435 Б)
+│           ├── Terminal.csproj.CoreCompileInputs.cache (41 Б)
+│           ├── Terminal.dll (14,5 КБ)
+│           ├── Terminal.csproj.FileListAbsolute.txt (2,6 КБ)
+│           ├── Terminal.assets.cache (139 Б)
+│           ├── .NETCoreApp,Version=v6.0.AssemblyAttributes.cs (186 Б)
+│           ├── Terminal.pdb (13,9 КБ)
+│           ├── Terminal.AssemblyInfo.cs (942 Б)
+│           └── Terminal.genruntimeconfig.cache (41 Б)
+├── Additional.cs (2,7 КБ)
+├── bin [0 Б; 0 Ф]
+│   └── Debug [0 Б; 0 Ф]
+│       └── net6.0 [319,9 КБ; 7 Ф]
+│           ├── Terminal.deps.json (394 Б)
+│           ├── Terminal (144,3 КБ)
+│           ├── ls.txt (2,2 КБ)
+│           ├── Terminal.dll (14,5 КБ)
+│           ├── Terminal.runtimeconfig.json (139 Б)
+│           ├── Terminal.pdb (13,9 КБ)
+│           └── Terminal.exe (144,5 КБ)
+├── Tree.cs (4,4 КБ)
+├── Terminal.csproj (259 Б)
+└── Program.cs (8,3 КБ)
 
-└── Debug [0 Б; 0 Ф]
-    └── net6.0 [173 КБ; 6 Ф]        ├── ls.txt (0 Б)
-        ├── Terminal.deps.json (416 Б)
-        ├── Terminal.dll (14 КБ)
-        ├── Terminal.exe (144,5 КБ)
-        ├── Terminal.pdb (13,9 КБ)
-        └── Terminal.runtimeconfig.json (147 Б)

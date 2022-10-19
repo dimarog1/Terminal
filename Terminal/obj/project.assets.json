@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dima\\.nuget\\packages\\": {}
+    "/Users/murean/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dima\\RiderProjects\\Terminal\\Terminal\\Terminal.csproj",
+      "projectUniqueName": "/Users/murean/RiderProjects/Terminal/Terminal/Terminal.csproj",
       "projectName": "Terminal",
-      "projectPath": "C:\\Users\\Dima\\RiderProjects\\Terminal\\Terminal\\Terminal.csproj",
-      "packagesPath": "C:\\Users\\Dima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dima\\RiderProjects\\Terminal\\Terminal\\obj\\",
+      "projectPath": "/Users/murean/RiderProjects/Terminal/Terminal/Terminal.csproj",
+      "packagesPath": "/Users/murean/.nuget/packages/",
+      "outputPath": "/Users/murean/RiderProjects/Terminal/Terminal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dima\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/murean/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\Dima\\.dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
       }
     }
   }

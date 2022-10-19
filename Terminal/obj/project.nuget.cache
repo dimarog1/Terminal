@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1JwD1AgObUvqrJEURkIo3btjAU3eBJ6StMoSqOBRT3tNdM2UR6gebKVHbczqeDCo3G6TRndWmZOBMRw0RzdNHA==",
+  "dgSpecHash": "QjVBAGK1R2MLVZMvbsINQobUENbRbYT/IB5ZJUVWrSEy5zgKECSXEDL7ymrqLts4GoNJgccBaTxgaGBKdXHR5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Dima\\RiderProjects\\Terminal\\Terminal\\Terminal.csproj",
+  "projectFilePath": "/Users/murean/RiderProjects/Terminal/Terminal/Terminal.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
