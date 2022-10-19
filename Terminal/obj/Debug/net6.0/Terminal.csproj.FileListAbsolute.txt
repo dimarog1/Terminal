@@ -1,0 +1,15 @@
+C:\Users\Dima\RiderProjects\Terminal\Terminal\bin\Debug\net6.0\Terminal.exe
+C:\Users\Dima\RiderProjects\Terminal\Terminal\bin\Debug\net6.0\Terminal.deps.json
+C:\Users\Dima\RiderProjects\Terminal\Terminal\bin\Debug\net6.0\Terminal.runtimeconfig.json
+C:\Users\Dima\RiderProjects\Terminal\Terminal\bin\Debug\net6.0\Terminal.dll
+C:\Users\Dima\RiderProjects\Terminal\Terminal\bin\Debug\net6.0\Terminal.pdb
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\Terminal.csproj.AssemblyReference.cache
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\Terminal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\Terminal.AssemblyInfoInputs.cache
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\Terminal.AssemblyInfo.cs
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\Terminal.csproj.CoreCompileInputs.cache
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\Terminal.dll
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\refint\Terminal.dll
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\Terminal.pdb
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\Terminal.genruntimeconfig.cache
+C:\Users\Dima\RiderProjects\Terminal\Terminal\obj\Debug\net6.0\ref\Terminal.dll
