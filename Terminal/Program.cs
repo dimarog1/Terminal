@@ -193,9 +193,15 @@ namespace Terminal
 
         public static bool ValidateCat(string filename, out FileInfo file)
         {
-            if (currentDirectory.EnumerateFiles().Select(x => x.Name).Contains(filename))
+            if (File.Exists(Path.Combine(currentDirectory.FullName, filename)))
             {
-                file = new FileInfo($"{currentDirectory.FullName}\\{filename}");
+                file = new FileInfo(Path.Combine(currentDirectory.FullName, filename));
+                return true;
+            }
+            
+            if (File.Exists(filename))
+            {
+                file = new FileInfo(filename);
                 return true;
             }
 
@@ -205,9 +211,9 @@ namespace Terminal
 
         public static bool ValidateAndSetCd(string directoryName)
         {
-            if (Directory.Exists($"{currentDirectory.FullName}\\{directoryName}"))
+            if (Directory.Exists(Path.Combine(currentDirectory.FullName, directoryName)))
             {
-                currentDirectory = new DirectoryInfo($"{currentDirectory.FullName}\\{directoryName}");
+                currentDirectory = new DirectoryInfo(Path.Combine(currentDirectory.FullName, directoryName));
                 return true;
             }
 
