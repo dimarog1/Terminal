@@ -19,13 +19,19 @@ namespace FsTree
         public int maxDepth { get; set; } = int.MaxValue;
         public List<string> treeLines { get; set; } = new List<string>();
 
-        public void Print()
+        public void Print(bool toConsole = true)
         {
             treeLines = new List<string>();
-            Console.WriteLine(path);
+            if (toConsole)
+            {
+                Console.WriteLine(path);
+            }
+
+            ;
             treeLines.AddRange(new[] { path, "" });
-            PrintTree(path);
+            PrintTree(path, toConsole);
         }
+
         private bool IsDirectory(FileSystemInfo fsi)
         {
             return fsi.Attributes.HasFlag(FileAttributes.Directory);
@@ -57,7 +63,8 @@ namespace FsTree
                         {
                             Additional.Additional.PrintColorMessage(line, ConsoleColor.Magenta);
                         }
-                        treeLines.Add(line);
+
+                        treeLines[^1] += line;
                     }
                     else
                     {
@@ -67,6 +74,7 @@ namespace FsTree
                         {
                             Additional.Additional.PrintColorMessage(line, ConsoleColor.DarkCyan);
                         }
+
                         treeLines[^1] += line;
                     }
 
@@ -78,7 +86,7 @@ namespace FsTree
                 }
                 catch
                 {
-                    
+
                 }
             }
 
@@ -97,7 +105,8 @@ namespace FsTree
                         {
                             Additional.Additional.PrintColorMessage(line, ConsoleColor.Magenta);
                         }
-                        treeLines[^1] += line;
+
+                        treeLines[^1] += line + Environment.NewLine;
                     }
                     else
                     {
@@ -107,7 +116,8 @@ namespace FsTree
                         {
                             Additional.Additional.PrintColorMessage(line, ConsoleColor.DarkCyan);
                         }
-                        treeLines[^1] += line;
+
+                        treeLines[^1] += line + Environment.NewLine;
                     }
 
                     if (IsDirectory(last))
@@ -117,7 +127,7 @@ namespace FsTree
                 }
                 catch
                 {
-                    
+
                 }
             }
         }
