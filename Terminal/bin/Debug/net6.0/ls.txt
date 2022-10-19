@@ -1,9 +1,12 @@
 C:\Users\Dima\RiderProjects\Terminal\Terminal\bin
-
 └── Debug [0 Б; 0 Ф]
-    └── net6.0 [173 КБ; 6 Ф]        ├── ls.txt (0 Б)
+    └── net6.0 [175,7 КБ; 8 Ф]
+        ├── file.txt (283 Б)
+        ├── file1.txt (314 Б)
+        ├── ls.txt (462 Б)
         ├── Terminal.deps.json (416 Б)
-        ├── Terminal.dll (14 КБ)
+        ├── Terminal.dll (15,5 КБ)
         ├── Terminal.exe (144,5 КБ)
-        ├── Terminal.pdb (13,9 КБ)
+        ├── Terminal.pdb (14,1 КБ)
         └── Terminal.runtimeconfig.json (147 Б)
+
