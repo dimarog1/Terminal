@@ -170,7 +170,32 @@ namespace Terminal
                 }
                 else if (command == "writels")
                 {
-                    File.WriteAllLines("ls.txt", tree.treeLines);
+                    if (commandParts.Length == 1)
+                    {
+                        try
+                        {
+                            File.WriteAllLines("ls.txt", tree.treeLines);
+                        }
+                        catch
+                        {
+                            Additional.Additional.ShowErrorMessage(code:8);
+                        }
+                    }
+                    else if (commandParts.Length == 2)
+                    {
+                        try
+                        {
+                            File.WriteAllLines(commandParts[1], tree.treeLines);
+                        }
+                        catch
+                        {
+                            Additional.Additional.ShowErrorMessage(code:9);
+                        }
+                    }
+                    else
+                    {
+                        Additional.Additional.ShowErrorMessage(code:10);
+                    }
                 }
             }
         }
